@@ -9,7 +9,7 @@ This github provides getting started guide for Dual Roundy RP2040.
 
 ### Features:
 - Powered by Raspberry Pi RP2040 microcontroller 
-- Dual 1.28” Square display arrangement for creative visual interactions
+- Dual 1.28” Round display arrangement for creative visual interactions
 - Board features an array of four WS2812B RGB Led with true 16M color support
 - Onboard QMI8658C 6D MEMS inertial measurement unit, incorporates a 3-axis gyroscope and a 3- axis accelerometer
 - Power and Charging LED for status indication
