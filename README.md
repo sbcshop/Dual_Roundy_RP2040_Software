@@ -55,7 +55,7 @@ This github provides getting started guide for Dual Roundy RP2040.
 
 Hold Main and common board as shown below and then connect both using provided Male and female header
 
-<img src= "https://github.com/sbcshop/Dual_Squary_RP2040_Software/blob/main/images/DualSquary_RP2040_Connection.gif"  width="870" height="250" >
+<img src= "https://github.com/sbcshop/Dual_Roundy_RP2040_Software/blob/main/images/combine_roundy_rp2040.gif"  width="870" height="250" >
 
 ### Interfacing Details
 
@@ -115,7 +115,7 @@ When you connect both Main and common board together following pins of RP2040 in
 - Every board will be pre-installed with suitable MicroPython firmware with the inbuilt display driver module, so you can skip this step and jump to [**Step 2**](https://github.com/sbcshop/Dual_Squary_RP2040_Software/blob/main/README.md#2-running-first-program) for trying Demo Codes.
 - In any case, you want to add again **MicroPython firmware**. First, you need to *Press and Hold* the boot button onboard, and then, without releasing the button, connect it to PC/laptop using Type C USB interface. Check below image for reference,
   
-  <img src="https://github.com/sbcshop/Dual_Squary_RP2040_Software/blob/main/images/press_BootBTN_squary_rp2040.gif" width="296" height="266">
+  <img src="https://github.com/sbcshop/Dual_Roundy_RP2040_Software/blob/main/images/roundy_rp2040_boot.gif" width="296" height="266">
 
 - Now your device is in boot mode, and you will see a new mass storage device named "RPI-RP2" as shown in the below figure.
 
