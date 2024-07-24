@@ -44,12 +44,12 @@ This github provides getting started guide for Dual Roundy RP2040.
 
 | Main Side | Common Side |  Common Side  |
 |---|---|---|
-| (1) Boot Button 			| (7) 1.28” TFT Display (Bottom) | (15) Battery Connector |
-| (2) Female Header 			| (8), (11) & (13) WS2812 RGB LED  | (16) QMI8658C 6D IMU Sensor |
-| (3) & (5) Programmable Buttons 	| (9) Charging Status LED |(17) GPIO’s Breakout |
-| (4) Type C 				| (10) Male Header |
-| (6) RP2040 				| (12) TFcard slot |
-| (7) 1.28” TFT Display (Top)		| (14) Power Status LED	|
+| (1) & (5) Programmable Buttons	| (7) 1.28” TFT Display (Bottom) | (14) Charging Status LED |
+| (2) RP2040				| (8) Male Header		 | (16) QMI8658C 6D IMU Sensor |
+| (3) Boot Button			| (9) Power Status LED		 | (17) TFcard slot 	|
+| (4) Female Header			| (10), (13), (15) & (18) WS2812 RGB LED |
+| (6) Type C				| (11) Battery Connector	|
+| (7) 1.28” TFT Display (Top)		| (12) GPIOs Breakout		|
 
 ### Connecting Main and Common board 
 
@@ -124,15 +124,14 @@ When you connect both Main and common board together following pins of RP2040 in
 - Download the relevant MicroPython firmware file provided in this repo above, ["**_firmware_dual_roundy_RP2040.uf2_**"](https://github.com/sbcshop/Dual_Squary_RP2040_Software/blob/main/firmware_dual_roundy_RP2040.uf2)
     
   Drag and drop Firmware file onto the RPI-RP2 volume.
-
-  <img src= "https://github.com/sbcshop/Dual_Roundy_RP2040_Software/blob/main/images/firmware_upload.jpg" width="" height="">
+  <img src= "https://github.com/sbcshop/Dual_Roundy_RP2040_Software/blob/main/images/firmware_upload.jpg" width="699" height="394" />
 
 
 ### 2. Running First Program
    - Download **Thonny IDE** from [Download link](https://thonny.org/) as per your OS and install it.
    - Download this github which contains various examples and open anyone of example in Thonny.
-
-     <img src= "https://github.com/sbcshop/Dual_Roundy_RP2040_Software/blob/main/images/github_download.jpg" width="" height="" />
+     <img src= "https://github.com/sbcshop/Dual_Roundy_RP2040_Software/blob/main/images/github_download.jpg" width="699" height="394" />
+   
    - Now we have **Thonny IDE application** and github example codes, Connect hardware to laptop/PC. Open any example code in Thonny IDE. Then select micropython device at the bottom right with a suitable COM port, as shown in the below figure. You might get a different COM port.
 
      <img src="https://github.com/sbcshop/2x2_Display_PicoW_Software/blob/main/images/select_device.png" width="448" height="196">
