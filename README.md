@@ -40,7 +40,7 @@ This github provides getting started guide for Dual Roundy RP2040.
 
 ## Getting Started with Daul Roundy RP2040
 ### Pinout
-<img src= "" />
+<img src= "https://github.com/sbcshop/Dual_Roundy_RP2040_Software/blob/main/images/Dual_Roundy_RP2040_Pinout.jpg" />
 
 | Main Side | Common Side |  Common Side  |
 |---|---|---|
@@ -81,19 +81,6 @@ When you connect both Main and common board together following pins of RP2040 in
    | GPIO15 | LCD2_BL | Backlight of display|
    | GPIO12 | LCD2_RST | Reset of display|
 
-   ```
-    #Code Snippets: Display interfacing
-    spi0 = SPI(0, baudrate=40000000, sck=Pin(18), mosi=Pin(19)) # Main (RP2040) board Display SPI pins
-    spi1 = SPI(1, baudrate=40000000, sck=Pin(10), mosi=Pin(11))	# Common base board display SPI pins
-    
-    # Define TFT displays with different CS pins
-    tft0 = st7789.ST7789(spi0, 240, 240, reset=Pin(16, Pin.OUT), cs=Pin(17, Pin.OUT), dc=Pin(6, Pin.OUT), backlight=Pin(7, Pin.OUT), rotation=0)
-    tft1 = st7789.ST7789(spi1, 240, 240, reset=Pin(12, Pin.OUT), cs=Pin(13, Pin.OUT), dc=Pin(14, Pin.OUT), backlight=Pin(15, Pin.OUT), rotation=0)
-    
-    tft0.init() 
-    tft1.init()
-   ```
-
  - **_SDcard Interface_**
    | RP2040 | SDCard | Function |
    |---|---|---|
@@ -101,12 +88,7 @@ When you connect both Main and common board together following pins of RP2040 in
    | GPIO3  | CARD_MOSI | MOSI (Master OUT Slave IN) pin of SPI interface|
    | GPIO4 | CARD_MISO  | MISO (Master IN Slave OUT) pin of SPI interface|
    | GPIO5  | CARD_CS  | Chip Select pin of SPI interface|
-   ```
-   #Code Snippets: SD interfacing
-   spi=SPI(0,sck=Pin(2),mosi=Pin(3),miso=Pin(4)) #define and configure sdcard SPI interfacing
-   sd=SDCard(spi,Pin(5)) # SDCard(arg1, arg2) => arg1 : SPI, arg2 : CS
-   ```
-   
+
 - **_QMI8658C IMU Interfacing_**
   | RP2040 | IMU | Function |
   |---|---|---|
@@ -143,39 +125,39 @@ When you connect both Main and common board together following pins of RP2040 in
     
   Drag and drop Firmware file onto the RPI-RP2 volume.
 
-  <img src= "https://github.com/sbcshop/Dual_Squary_RP2040_Software/blob/main/images/firmware_upload.jpg" width="639" height="325">
+  <img src= "https://github.com/sbcshop/Dual_Roundy_RP2040_Software/blob/main/images/firmware_upload.jpg" width="" height="">
 
 
 ### 2. Running First Program
    - Download **Thonny IDE** from [Download link](https://thonny.org/) as per your OS and install it.
    - Download this github which contains various examples and open anyone of example in Thonny.
 
-     <img src= "https://github.com/sbcshop/Dual_Squary_RP2040_Software/blob/main/images/github_download.jpg" width="767" height="386" />
+     <img src= "https://github.com/sbcshop/Dual_Roundy_RP2040_Software/blob/main/images/github_download.jpg" width="" height="" />
    - Now we have **Thonny IDE application** and github example codes, Connect hardware to laptop/PC. Open any example code in Thonny IDE. Then select micropython device at the bottom right with a suitable COM port, as shown in the below figure. You might get a different COM port.
 
      <img src="https://github.com/sbcshop/2x2_Display_PicoW_Software/blob/main/images/select_device.png" width="448" height="196">
   
-   - Make sure to save [_**dualdisplay.py**_](https://github.com/sbcshop/Dual_Squary_RP2040_Software/blob/main/examples/dualdisplay.py) lib file to device if not already present to avoid any execution error.
+   - Make sure to save [_**dualdisplay.py**_](https://github.com/sbcshop/Dual_Roundy_RP2040_Software/blob/main/examples/dualdisplay.py) lib file to device if not already present to avoid any execution error.
 
-      <img src= "https://github.com/sbcshop/Dual_Squary_RP2040_Software/blob/main/images/lib_file.png" />
+      <img src= "https://github.com/sbcshop/Dual_Roundy_RP2040_Software/blob/main/images/lib_file.png" />
 
    - Once everything all set, with any demo code open click on green play button to test program.
 
-     <img src= "https://github.com/sbcshop/Dual_Squary_RP2040_Software/blob/main/images/run_script.png" />
+     <img src= "https://github.com/sbcshop/Dual_Roundy_RP2040_Software/blob/main/images/run_script.png" />
 
    - For standalone execution save script into device as main.py,
 
-     <img src= "https://github.com/sbcshop/Dual_Squary_RP2040_Software/blob/main/images/main_standalone.png" />
+     <img src= "https://github.com/sbcshop/Dual_Roundy_RP2040_Software/blob/main/images/main_standalone.png" />
 
      Try out below provided reference example demo codes and modify to build your own application codes.
      
 
 ### Example Codes
-   Try reference demo codes to test onboard components, also make sure to save [_**dualdisplay.py**_](https://github.com/sbcshop/Dual_Squary_RP2040_Software/blob/main/examples/dualdisplay.py) lib file into board
-   - [Dual Display Demo](https://github.com/sbcshop/Dual_Squary_RP2040_Software/blob/main/examples/Demo_DualDisplay.py) : Visualize onboard display working with sample code
-   - [6-axis IMU Sensor](https://github.com/sbcshop/Dual_Squary_RP2040_Software/blob/main/examples/Demo_IMU.py) : To read accelerometer and gyroscope value
-   - [Buttons Demo](https://github.com/sbcshop/Dual_Squary_RP2040_Software/blob/main/examples/Demo_RGB_BTN.py) : Testing onboard user programmable buttons
-   - [More...](https://github.com/sbcshop/Dual_Squary_RP2040_Software/tree/main/examples)
+   Try reference demo codes to test onboard components, also make sure to save [_**dualdisplay.py**_](https://github.com/sbcshop/Dual_Roundy_RP2040_Software/blob/main/examples/dualdisplay.py) lib file into board
+   - [Dual Display Demo](https://github.com/sbcshop/Dual_Roundy_RP2040_Software/blob/main/examples/Demo_DualDisplay.py) : Visualize onboard display working with sample code
+   - [6-axis IMU Sensor](https://github.com/sbcshop/Dual_Roundy_RP2040_Software/blob/main/examples/Demo_IMU.py) : To read accelerometer and gyroscope value
+   - [Buttons Demo](https://github.com/sbcshop/Dual_Roundy_RP2040_Software/blob/main/examples/Demo_RGB_BTN.py) : Testing onboard user programmable buttons
+   - [More...](https://github.com/sbcshop/Dual_Roundy_RP2040_Software/tree/main/examples)
 
    Using this sample code as a guide, you can modify, build, and share codes!!
 
