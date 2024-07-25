@@ -95,12 +95,13 @@ When you connect both Main and common board together following pins of RP2040 in
   |GPIO21 | I2C_SCL | I2C Serial Clock |
   |GPIO20 | I2C_SDA | I2C Data pin |
   
-- **_Buttons Interfacing_**
+- **_Buttons and RGB LED Interfacing_**
   | RP2040 | Hardware | Function |
   |---|---|---|
   |GPIO22| BT1 | Programmable Button |
   |GPIO9 | BT2 | Programmable Button |
   |GPIO8 | BT3 | Programmable Button |
+  |GPIO28 | DIN | Data In of WS2812 RGBLed Array |
   
 - _**GPIOs Breakout**_
   | RP2040 | Function |
