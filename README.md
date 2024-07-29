@@ -1,6 +1,8 @@
 # Dual_Roundy_Pico_RP2040_Software
 
-<img src= "" />
+<!--
+<img src= "https://github.com/sbcshop/Dual_Squary_ESP32_Software/blob/main/images/duo_display_banner.jpg" />
+-->
 
 Dual Roundy RP2040 has two 1.28" Round displays driven by the RP2040 chip, an array of four WS2812B RGB LEDs, and an inbuilt QMI8658C 6D MEMS IMU, providing the ideal platform for your creative ideas. 
 Easy programming using the Type C interface, as well as several dynamic visualization features, make it appropriate for a wide range of unique applications.
