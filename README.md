@@ -1,4 +1,4 @@
-# Dual_Roundy_Pico_Software
+# Dual_Roundy_Pico_RP2040_Software
 
 <img src= "" />
 
