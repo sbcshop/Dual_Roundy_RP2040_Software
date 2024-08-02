@@ -172,13 +172,13 @@ When you connect both Main and common board together following pins of RP2040 in
   * [MicroPython getting started for RPi Pico/Pico W](https://docs.micropython.org/en/latest/rp2/quickref.html)
 
 ## Related Products  
-  * [2x2 Display with ESP32 S3 (Round)](https://shop.sb-components.co.uk/products/2x2-quad-display-board?variant=41538301493331)
+  * [2x2 Display with Pico W (Round)](https://shop.sb-components.co.uk/products/2x2-quad-display-board?variant=41538301427795)
 
-    ![2x2 Display with ESP32 S3 (Round)](https://shop.sb-components.co.uk/cdn/shop/files/mainroundesp32.png?v=1720527042&width=300)
+    ![2x2 Display with Pico W (Round)](https://shop.sb-components.co.uk/cdn/shop/files/mainroundpico_9049cee6-4f8a-4150-bbac-9e5c124a4840.png?v=1721623835&width=300)
     
-  * [2x2 Display with ESP32 S3 (Square)](https://shop.sb-components.co.uk/products/2x2-quad-display-board?variant=41538301526099)
+  * [2x2 Display with Pico W (Square)](https://shop.sb-components.co.uk/products/2x2-quad-display-board?variant=41538301460563)
 
-    ![2x2 Display with ESP32 S3 (Square)](https://shop.sb-components.co.uk/cdn/shop/files/mainsquareesp32.png?v=1720527077&width=300)
+    ![2x2 Display with Pico W (Square)](https://shop.sb-components.co.uk/cdn/shop/files/squarepico.png?v=1720527004&width=300)
     
   * [Touchsy - 3.2" Touch LCD Display Based on Pico W](https://shop.sb-components.co.uk/products/touchsy-3-2-touch-lcd-display-based-on-pico-w?variant=40828148744275)
 
@@ -187,6 +187,7 @@ When you connect both Main and common board together following pins of RP2040 in
   * [Rotary Encoder - LED Array & Touch LCD Powered by Pico W](https://shop.sb-components.co.uk/products/rotary-encoder-led-array-touch-lcd-for-esp32-pico-hat?variant=41002601676883)
 
     ![Rotary Encoder - LED Array & Touch LCD Powered by Pico W](https://shop.sb-components.co.uk/cdn/shop/files/RotaryEncoder-LEDArray_TouchLCDforESP32PicoHAT_7.png?v=1710413189&width=300)
+
 
 
 ## Product License
